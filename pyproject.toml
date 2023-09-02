@@ -2,7 +2,7 @@
 requires = ["setuptools", "wheel"]
 
 [project]
-name = "flask-api-key-decorator"
+name = "flask_api_key_decorator"
 version = "0.1.0"
 description = "Simple Flask decorator for requiring an API key"
 authors = [
@@ -12,10 +12,6 @@ license = {file = "LICENSE.md"}
 readme = "README.md"
 dependencies = [
     "flask",
-]
-
-packages = [
-    {name = "flask_api_key_decorator", include = ["flask_api_key_decorator"]},
 ]
 
 [project.urls]

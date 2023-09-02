@@ -11,7 +11,7 @@ def require_api_key(view_function=None, *, key=None, header_name='x-api-key'):
 
     @wraps(view_function)
     def decorated_function(*args, **kwargs):
-        if request.headers.get(header_name) and environ.get('API_KEY'):
+        if request.headers.get(header_name) == api_key:
             return view_function(*args, **kwargs)
         else:
             return jsonify({"message": "Invalid API key"}), 403
