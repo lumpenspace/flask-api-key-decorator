@@ -22,6 +22,7 @@ jobs:
         pip install build
         pip install twine
         pip install pytest
+        pip install flask
     - name: Run tests
       run: |
         python -m pytest
