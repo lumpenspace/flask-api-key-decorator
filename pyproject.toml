@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[project]
+name = "flask-api-key-decorator"
+version = "0.1.0"
+description = "Simple Flask decorator for requiring an API key"
+authors = [
+    {name = "@lumpenspace", email = "lumpenspace@gmail.com"},
+]
+license = "MIT"
+readme = "README.md"
+
+[project.urls]
+homepage = "https://github.com/yourusername/flask-api-key-decorator"
+repository = "https://github.com/yourusername/flask-api-key-decorator"
+documentation = "https://yourusername.github.io/flask-api-key-decorator"
+
+[project.scripts]
+test = "pytest"
+
+[project.dependencies]
+flask = ">=1.1.0,<2.0.0"
+
+[project.dev-dependencies]
+pytest = ">=6.2.0,<7.0.0"
