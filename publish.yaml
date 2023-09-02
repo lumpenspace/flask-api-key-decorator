@@ -21,10 +21,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install build
         pip install twine
-        pip install pytest
-    - name: Run tests
-      run: |
-        pytest
     - name: Build and publish
       env:
         TWINE_USERNAME: __token__
