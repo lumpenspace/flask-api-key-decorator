@@ -10,6 +10,9 @@ authors = [
 ]
 license = {file = "LICENSE.md"}
 readme = "README.md"
+dependencies = [
+    "flask",
+]
 
 [project.urls]
 homepage = "https://github.com/yourusername/flask-api-key-decorator"
@@ -19,8 +22,3 @@ documentation = "https://yourusername.github.io/flask-api-key-decorator"
 [project.scripts]
 test = "pytest"
 
-[project.dependencies]
-flask = ">=1.1.0,<2.0.0"
-
-[project.dev-dependencies]
-pytest = ">=6.2.0,<7.0.0"
