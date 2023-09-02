@@ -52,4 +52,4 @@ export API_KEY=your-api-key-1,your-api-key-2
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/).
+MIT (see [LICENSE.md](LICENSE.md)

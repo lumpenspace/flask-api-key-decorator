@@ -6,9 +6,9 @@ name = "flask-api-key-decorator"
 version = "0.1.0"
 description = "Simple Flask decorator for requiring an API key"
 authors = [
-    {name = "@lumpenspace", email = "lumpenspace@gmail.com"},
+    "@lumpenspace <lumpenspace@gmail.com>",
 ]
-license = "MIT"
+license = {file = "LICENSE.md"}
 readme = "README.md"
 
 [project.urls]
