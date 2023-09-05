@@ -3,7 +3,7 @@ requires = ["setuptools", "wheel"]
 
 [project]
 name = "flask_api_key_decorator"
-version = "0.1.1"
+version = "0.1.2"
 description = "Simple Flask decorator for requiring an API key"
 authors = [
     {name = "@lumpenspace", email = "lumpenspace@gmail.com"},
@@ -18,7 +18,3 @@ dependencies = [
 homepage = "https://github.com/yourusername/flask-api-key-decorator"
 repository = "https://github.com/yourusername/flask-api-key-decorator"
 documentation = "https://yourusername.github.io/flask-api-key-decorator"
-
-[project.scripts]
-test = "pytest"
-
