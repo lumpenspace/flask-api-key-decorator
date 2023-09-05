@@ -12,7 +12,13 @@ pip install flask-api-key-decorator
 
 ## Usage
 
-Then, use it to decorate your Flask routes:
+Import the library
+
+```
+from require_api_key import require_api_key
+```
+
+Use it to decorate your Flask routes:
 
 ```python
 @app.route('/')
